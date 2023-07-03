@@ -10,11 +10,11 @@
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
-              "cwd": "${workspaceFolder}",
+              "cwd": "D:\\Programs\\MinGW\\bin",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\Programs\\MinGW\bin\\gdb.exe",        /*修改成自己bin目录下的gdb.exe，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/
+            "miDebuggerPath": "D:\\Programs\\MinGW\\bin\\gdb.exe",        /*修改成自己bin目录下的gdb.exe，这里的路径和电脑里复制的文件目录有一点不一样，这里是两个反斜杠\\*/
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
@@ -22,7 +22,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "task g++"
+            "preLaunchTask": "C/C++: g++.exe build active file"
         }
     ]
 }
